@@ -1,0 +1,28 @@
+.content{
+    padding: 50px;
+    padding-bottom: 0%;
+}
+
+#carte{
+    visibility: hidden;
+
+}
+
+hr{
+    color: aqua;
+}
+
+#info2{
+    display: grid;
+    grid-template-columns: 50px auto;
+    font-size: 20px;
+}
+
+
+.divicone{
+    width: 80%;
+    margin-bottom: 100px;
+
+}
+
+
