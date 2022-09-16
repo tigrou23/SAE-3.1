@@ -5,15 +5,13 @@
 header{
   top:0px;
   position: sticky;
-  z-index: 1;
-}
-.bandeau{
   background-image: url("../image/cadreJungle.png");
   background-size: cover;
   box-shadow: 0px 5px 15px grey;
-  padding-top: 1.5%;
 }
+
 #logoTop{
+  padding-top: 1.5%;
   display: block;
   width: 15%;
   margin-left: auto;
@@ -26,17 +24,21 @@ nav{
   text-align: center;
   padding-bottom: 1%;
 }
-#menu {
+#menu{
+  display : grid;
   margin : 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
-#menu > li{
-  display : inline-block;
+#menu > li {
+  grid-column: span 1;
+  text-align: center;
   list-style: none;
-  width: 24%;
-  font-size: 165%;
   font-family: "Calibri";
   font-weight: 500;
+  font-size: 165%;
 }
+
 #menu > li > a {
   text-decoration: none;
   color : black;
@@ -49,17 +51,35 @@ nav{
   font-weight: bold;
 }
 .bord{
-  border-left: solid;
+  border-right: solid;
 }
 
 footer{
-  background-color: grey;
+  background-color: rgb(199, 199, 199);
   height: 80px;
+  display: grid;
 }
-
 #logoBottom{
   display: block;
   width: 10%;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+@media screen and (min-width : 1200px){
+  header{
+    height: 215px;
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  #logoTop{
+    padding-top: 17px;
+     height: 138px;
+     width: 177px;
+  }
+  nav{
+    grid-row :auto;
+    margin-top: 12px;
+  }
+
 }
