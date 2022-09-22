@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang=fr dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>accueil</title>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/accueil.css">
     <link rel="stylesheet" type="text/css" href="css/bandeau01.css" media="only screen and (min-width: 750px)"/>
-  </head>
-  <body>
+    <script src="js/script.js" async></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4">
+    
+</head>
+<body>
     <header>
-      <div class="bandeau">
-      <img src="image/logo.png" id="logoTop" alt="logo">
+        <div class="bandeau">
+        <img src="image/logo.png" id="logoTop" alt="logo">
         <nav>
           <ul id="menu">
             <li class="bord"><a href="./index.html">Accueil</a></li>
@@ -17,15 +22,65 @@
             <li class=""><a href="#">FAQ</a></li>
           </ul>
         </nav>
-      </div>
-    </header>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </header>
+    <div id="content">
+        <article id="accueil">
+            <h1 class ="is-size-3">Accueil</h1>
+            <hr style="width:10%;">
+            <div id="divInputRecherche">
+                <img src="image/rechercher.png" alt="loupe" id="loupeImg">
+                <input type="text" name="rechercher" id="inputRecherche" placeholder="Rechercher...">
+            </div>
+        </article>
+        <article id="demarche">
+            <h3><a href="" id="demarcheLink">Mes démarches en ligne...</a></h3>
+            <img src="image/underline.png" alt="underline" id="underline">
+                
+            <div id="demarcheContent">
+                <div id="divWrench">
+                    <img src="image/wrench.png" alt="wrench">
+                    <p><a href="" id="linkWrench">> Contrôle Système d'Assainissement</a></p>
+                </div>
+                
+                <div id="divContrat">
+                    <img src="image/contrat.png" alt="Pen writing a note">
+                    <p><a href="" id="linkContrat">> Demande Résiliation Abonnement</a></p>
+                </div>
+                <div id="divPlus">
+                    <img src="image/plus.png" alt="Plus icon">
+                    <p><a href="" id="linkPlus">> Plus d'infos pratiques...</a></p>
+                </div>    
+            </div>
+        </article>
+        <aside id="divers">
+            <article id="contact">
+                <h3><a href="" id="contactLink">Nous contacter...</a></h3>
+                
+                
+                <p>Nos conseillers sont à votre <br/>disposition du Lundi au Vendredi.</p>
+                <div class="more">
+                    <img src="image/fleche-courbe.png" alt="arrow" class="arrowImg">
+                    <p><a href=""><i id ="a1">Voir les horaires d'ouvertures...</i></a></p>
+                </div>
+            </article>
+            <article id="faq">
+                <h3><a href="" id="faqLink">La foire aux questions</a></h3>
+                <p>
+                    <a href="">> Comprendre sa facture</a>
+                    <a href="">> Gérer son eau</a>
+                    <a href="">> Effectuer ses branchements</a>
+                    <a href="">> Tarifs et réglements</a>
+                </p>
+                <div class="more">
+                    <img src="image/fleche-courbe.png" alt="arrow" class="arrowImg">
+                    <p><a href=""><i id="a2">Plus de questions...</i></a></p>
+                </div>
+            </article> 
+        </aside>
+    </div>
     <footer>
-    <img src="image/logoSeul.png" id="logoBottom" alt="logo">
+        <img src="image/logoSeul.png" id="logoBottom" alt="logo">
     </footer>
-  </body>
+</body>
 </html>
