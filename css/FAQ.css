@@ -8,6 +8,8 @@
 	
 }
 
+
+
 section{
 	width: auto;
 	margin-left: 3%;
@@ -24,11 +26,11 @@ li{
 
 .reponse{
 	margin:5px 15px;
-	color:blue;
+	color:black;
 }
 
 .question{
-	paddding:5px;
+	padding:5px;
 	background-color: whitesmoke;
 	display:block;
 	color:green;

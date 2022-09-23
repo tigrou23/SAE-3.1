@@ -82,4 +82,16 @@ footer{
     margin-top: 12px;
   }
 
+
+
 }
+
+@media screen and (max-width : 800px){
+  #menu > li {
+    
+    font-size: 105%;
+  }
+
+
+}
+
