@@ -4,7 +4,13 @@
     <meta charset="utf-8">
     <title>actualité</title>
     <link rel="stylesheet" type="text/css" href="css/bandeau01.css" media="only screen and (min-width: 750px)"/>
-    <link rel="stylesheet" type="text/css" href="css/actu1.css" media="only screen and (min-width: 770px)"/>
+    <link id="couleur" rel="stylesheet" type="text/css" href="css/lightMode.css" media="only screen"/>
+    <link rel="stylesheet" type="text/css" href="css/actu1.css" media="only screen and (min-width: 750px)"/>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script type="text/javascript" src="js/bandeau.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   </head>
@@ -29,25 +35,25 @@
       <hr style="width:10%;">
 
       <div id="contenu">
-        <div class="cell">
-          <img src="image/coupure.jpg">
-          <div class="titre">Coupure dans la distribution d'eau à Baillif</div>
+        <div class="cell"><a href="#">
+          <img class="hvr-grow" src="image/coupure.jpg">
+          <div class="titre">Coupure dans la distribution d'eau à Baillif</div></a>
         </div>
-        <div class="cell">
-          <img src="image/web.jpg">
-          <div class="titre">Mise à disposition de l'agence en ligne</div>
+        <div class="cell"><a href="#">
+          <img class="hvr-grow" src="image/web.jpg">
+          <div class="titre">Mise à disposition de l'agence en ligne</div></a>
         </div>
-        <div class="cell">
-          <img src="image/portail.jpg">
-          <div class="titre">Bienvenu sur votre nouveau portail web</div>
+        <div class="cell"><a href="#">
+          <img class="hvr-grow" src="image/portail.jpg">
+          <div class="titre">Bienvenu sur votre nouveau portail web</div></a>
         </div>
-        <div class="cell">
-          <img src="image/communique.png">
-          <div class="titre">Communiqué de presse</div>
+        <div class="cell"><a href="#">
+          <img class="hvr-grow" src="image/communique.png">
+          <div class="titre">Communiqué de presse</div></a>
         </div>
       </div>
     </div>
-
+    <button>ok</button>
     <footer>
       <img src="image/logoSeul.png" id="logoBottom" alt="logo">
     </footer>
