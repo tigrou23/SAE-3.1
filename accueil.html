@@ -2,78 +2,85 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/accueil.css">
     <link rel="stylesheet" type="text/css" href="css/bandeau01.css" />
-    <script src="./js/script.js" async></script>
+    <link rel="stylesheet" href="css/accueil.css">
+	<link id="couleur" rel="stylesheet" type="text/css" href="css/lightMode.css"/>
+    <link rel="icon" href="./image/logo.ico" />
     <title>CASBT - Accueil</title>
-    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css%22%3E">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script type="text/javascript" src="js/bandeau.js"></script>
 </head>
+
 <body class="content">
     <header>
         <div class="bandeau">
-        <img src="image/logo.png" id="logoTop" alt="logo">
-        <nav>
-          <ul id="menu">
-            <li class="bord"><a href="./accueil.html">Accueil</a></li>
-            <li class="bord"><a href="./actualite.html">Actualité</a></li>
-            <li class="bord"><a href="./contact.html">Contact</a></li>
-            <li class=""><a href="#">FAQ</a></li>
-          </ul>
-        </nav>
+          <a href="./accueil.html">
+            <img src="image/logo.png" id="logoTop" alt="logo">
+          </a>
+          <nav>
+            <ul id="menu">
+              <li class="bord"><a href="./accueil.html">Accueil</a></li>
+              <li class="bord"><a href="./actualite.html">Actualité</a></li>
+              <li class="bord"><a href="./contact.html">Contact</a></li>
+              <li class=""><a href="./FAQ.html">FAQ</a></li>
+            </ul>
+          </nav>
         </div>
-    </header>
+      </header>
+
+   
+
     <div id="content">
+
         <article id="accueil">
             <h1 class ="is-size-3">Accueil</h1>
             <hr style="width:10%;">
-            <div id="divInputRecherche">
-                <img src="image/rechercher.png" alt="loupe" id="loupeImg">
-                <input type="text" name="rechercher" id="inputRecherche" placeholder="Rechercher...">
-            </div>
+           
         </article>
         <article id="demarche">
-            <h3 class="underline-01"><a href="" id="demarcheLink">Mes démarches en ligne...</a></h3>
+            <h3 class="underline-01"><a href="http://www.casbt.incom-sa.fr/?q=mes-demarches-en-ligne" id="demarcheLink">Mes démarches en ligne...</a></h3>
             
             <div id="demarcheContent">
                 <div id="divWrench">
                     <img src="image/wrench.png" alt="wrench">
-                    <p><a href="" id="linkWrench">> Contrôle Système d'Assainissement</a></p>
+                    <p><a href="http://www.casbt.incom-sa.fr/?q=contr%C3%B4le-syst%C3%A8me-dassainissement-0" id="linkWrench">> Contrôle Système d'Assainissement</a></p>
                 </div>
                 
                 <div id="divContrat">
                     <img src="image/contrat.png" alt="Pen writing a note">
-                    <p><a href="" id="linkContrat">> Demande Résiliation Abonnement</a></p>
+                    <p><a href="http://www.casbt.incom-sa.fr/?q=demande-r%C3%A9siliation-abonnement" id="linkContrat">> Demande Résiliation Abonnement</a></p>
                 </div>
                 <div id="divPlus">
                     <img src="image/plus.png" alt="Plus icon">
-                    <p><a href="" id="linkPlus">> Plus d'infos pratiques...</a></p>
+                    <p><a href="http://www.casbt.incom-sa.fr/?q=informations" id="linkPlus">> Plus d'infos pratiques...</a></p>
                 </div>    
             </div>
         </article>
         <aside id="divers">
             <article id="contact">
-                <h3 class="underline-02"><a href="" id="contactLink">Nous contacter...</a></h3>
+                <h3 class="underline-02"><a href="./contact.html" id="contactLink">Nous contacter...</a></h3>
                 
                 
                 <p>Nos conseillers sont à votre <br/>disposition du Lundi au Vendredi.</p>
                 <div class="more">
                     <img src="image/fleche-courbe.png" alt="arrow" class="arrowImg">
-                    <p><a href=""><i id ="a1">Voir les horaires d'ouvertures...</i></a></p>
+                    <p><a href="./contact.html"><i id ="a1">Voir les horaires d'ouvertures...</i></a></p>
                 </div>
             </article>
             <article id="faq">
-                <h3 class="underline-03"><a href="" id="faqLink">La foire aux questions</a></h3>
+                <h3 class="underline-03"><a href="./FAQ.html" id="faqLink">La foire aux questions</a></h3>
                 <p>
-                    <a href="">> Comprendre sa facture</a>
-                    <a href="">> Gérer son eau</a>
-                    <a href="">> Effectuer ses branchements</a>
-                    <a href="">> Tarifs et réglements</a>
+                    <a href="./FAQ.html">> Comprendre sa facture</a>
+                    <a href="./FAQ.html">> Gérer son eau</a>
+                    <a href="./FAQ.html">> Effectuer ses branchements</a>
+                    <a href="./FAQ.html">> Tarifs et réglements</a>
                 </p>
                 <div class="more">
                     <img src="image/fleche-courbe.png" alt="arrow" class="arrowImg">
-                    <p><a href=""><i id="a2">Plus de questions...</i></a></p>
+                    <p><a href="./FAQ.html"><i id="a2">Plus de questions...</i></a></p>
                 </div>
             </article> 
         </aside>

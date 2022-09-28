@@ -1,90 +1,3 @@
-*{
-    padding : 0;
-    margin: 0;
-  }
-  header{
-    top:0px;
-    position: sticky;
-    background-image: url("../image/cadreJungle.png");
-    background-size: cover;
-    box-shadow: 0px 5px 15px grey;
-  }
-  
-  #logoTop{
-    padding-top: 1.5%;
-    display: block;
-    width: 15%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  nav{
-    width: auto;
-    margin-left: 20%;  margin-right: 20%;
-    margin-top: 1%;
-    text-align: center;
-    padding-bottom: 1.5%;
-  }
-  #menu{
-    display : grid;
-    margin : 0;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-  }
-  #menu > li {
-    grid-column: span 1;
-    text-align: center;
-    list-style: none;
-    font-family: "Calibri";
-    font-weight: 500;
-    font-size: 165%;
-  }
-  
-  #menu > li > a {
-    text-decoration: none;
-    color : black;
-  }
-  #menu > li > a:hover {
-    color : green;
-  }
-  #menu > li > a:focus {
-    color : green;
-    font-weight: bold;
-  }
-
-  .bord{
-    border-right: solid;
-  }
-  
-  footer{
-    background-color: rgb(199, 199, 199);
-    height: 80px;
-    display: grid;
-  }
-  #logoBottom{
-    display: block;
-    width: 10%;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  
-  @media screen and (min-width : 1200px){
-    header{
-      height: 215px;
-      display: grid;
-      grid-template-rows: auto auto;
-    }
-    #logoTop{
-      padding-top: 17px;
-       height: 138px;
-       width: 177px;
-    }
-    nav{
-      grid-row :auto;
-      margin-top: 12px;
-    }
-  
-  }
-  
 body{
     background-image: url("../image/background.png");
     background-repeat: no-repeat;
@@ -93,13 +6,20 @@ body{
     flex-direction: column;
     font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+#logoTop{
+  padding-top: 1.5%;
+  display: block;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width : 1200px){
+  #logoTop{
+    padding-top: 17px;
+     height: 138px;
+     width: 177px;
+  }
 
-
-section{
-    min-height: 75vh;
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
 }
 
 #demarche{
@@ -109,7 +29,7 @@ section{
 .underline-01::after {
   content: "";
   position: absolute;
-  margin-top: 20px;;
+  margin-top: 40px;;
   left: 5.5%;
   width: 195px;
   height: 5px;
@@ -121,7 +41,7 @@ section{
 .underline-02::after {
   content: "";
   position: absolute;
-  margin-top: 20px;;
+  margin-top: 40px;;
   left: 5.5%;
   width: 195px;
   height: 5px;
@@ -133,8 +53,8 @@ section{
 .underline-03::after {
   content: "";
   position: absolute;
-  margin-top: 20px;
-  right: 295px;
+  margin-top: 40px;;
+  right: 18%;
   width: 195px;
   height: 5px;
   transform: skew(-12deg) translateX(-40%);
@@ -166,25 +86,6 @@ section{
     align-items: center;
 }
 
-
-#divInputRecherche{
-  margin-top: 2%;
-  background-color: #e8e4e4;
-  width: 30%;
-  display: flex;
-}
-#divInputRecherche:hover{
-  cursor: text;
-}
-#inputRecherche{
-    width: 80%;
-    background-color: #e8e4e4;
-    border: none;
-    padding: 10px;
-}
-input:focus{
-    outline: none;
-}
 #loupeImg{
   min-width: 25px;
   min-height: 25px;
@@ -314,4 +215,17 @@ h1 {
 
 #divPlus > p{
   margin-top: 10%
+}
+
+@media screen and (max-width : 715px){
+  
+  .underline-03::after,.underline-01::after,.underline-02::after{
+    display:none;
+  }
+
+  #demarcheContent{
+    margin-left: 2%;
+  }
+  
+
 }
