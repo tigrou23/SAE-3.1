@@ -1,6 +1,132 @@
+Hugo Pereira
+#2856
+
+François — 26/09/2022
+En gros c est pour le Https?
+Hugo Pereira — 26/09/2022
+yes entre autre 
+Meriem — 26/09/2022
+quel homme…
+Hugo Pereira — Hier à 08:29
+Demain on a beaucoup de taff. L’analyse de nos taches sur Trell,  la mise en commun de nos pages pour avoir le site final, analyse du sujet 2
+@everyone je propose qu’on se retrouve à la BU pour 9h
+Meriem — Hier à 10:07
+j'serai là vers 8h perso
+Meriem — Hier à 10:22
+Type de fichier joint : archive
+accueil.zip
+2.84 KB
+@Hugo Pereiraon a pas eu le temps hier avec félix
+tu peux jeter un oeil si tu veux
+Hugo Pereira — Hier à 10:59
+Vous n'avez pas eu le temps de faire quoi ?
+Meriem — Hier à 11:00
+on devait rajouter ma partie non ?
+Hugo Pereira — Hier à 11:00
+ah oui, je rajoute ta partie et je vous envoie
+ah top la version ordi
+par contre pas de responsive @Meriem
+?*
+Meriem — Hier à 11:04
+Y’a que les traits qui le sont pas
+je suis sur la route (voiture) pour paris je fais ça des que je peux 
+Hugo Pereira — Hier à 11:04
+et je vois que tu as lié un fichier javascript mais tu ne m'as pas envoyé
+Meriem — Hier à 11:04
+Tu l’as pas déjà ?
+Je l’avais envoyé dans le dossier la dernière fois, tu l’avais implémenté il me semblen
+je te le renvoie sinon
+Hugo Pereira — Hier à 11:07
+je veux bien stp
+Meriem — Hier à 11:09
+Type de fichier joint : archive
+js.zip
+1.87 KB
+Hugo Pereira — Hier à 11:12
+merci
+Meriem — Hier à 12:07
+de rieen
+Hugo Pereira — Hier à 19:00
+Je serai aussi là avant 8h finalement
+Meriem — Hier à 19:00
+Avant 8h ??
+François — Hier à 19:00
+Sa beug je vois pas bien les messages j en conclue que je viens vers 9h
+Meriem — Hier à 19:01
+Ptdrrrr
+Hugo Pereira — Hier à 19:04
+Oklm je travaillerai d’autres choses avant 9h
+Mais essayez d’être là pour 9 heures parce qu’on a plein de choses à travailler
+Meriem — Aujourd’hui à 02:12
+bahahahah je viens d’arriver à paris
+Meriem — Aujourd’hui à 08:28
+y’a pas de bus wsh
+jvais marcher 15mn..
+François — Aujourd’hui à 08:38
+C est pour te réveiller
+Meriem — Aujourd’hui à 08:39
+ça ma mise ko plutôt
+@Hugo Pereira t’es arrivé ?
+Hugo Pereira — Aujourd’hui à 08:40
+B1-17
+Meriem — Aujourd’hui à 09:58
+.underline-03::after {
+  content: "";
+  position: absolute;
+  margin-top: 20px;
+  right: 18%;
+  width: 195px;
+  height: 5px;
+  transform: skew(-12deg) translateX(-40%);
+  background: rgba(129, 123, 122, 0.5);
+  z-index: -1;
+}
+@Hugo Pereira tu peux tout prendre et tout mettre à la place de l'ancien 
+c'est responsive
+Meriem — Aujourd’hui à 10:07
+@media screen and (max-width : 715px){
+  
+  .underline-03::after,.underline-01::after,.underline-02::after{
+    display:none;
+  }
+
+  #demarcheContent{
+    margin-left: 2%;
+  }
+  
+
+}
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+</footer>
+Hugo Pereira — Aujourd’hui à 10:19
+https://casbt.fr/
+Félix — Aujourd’hui à 10:40
+lightMode.css
+footer{
+    background-color: #ececec;
+}
+Hugo Pereira — Aujourd’hui à 11:07
+@everyone, On se donne jusqu'à dimanche pour faire ça 
+Hugo Pereira — Aujourd’hui à 14:15
+Image
+Meriem — Aujourd’hui à 14:17
+oui
+Hugo Pereira — Aujourd’hui à 14:22
+https://drive.google.com/file/d/1pLkKmN0qWWed97OlKqacAeMZ3kMeg_L7/view?usp=sharing
+Meriem — Aujourd’hui à 14:22
+Merci
+Meriem — Aujourd’hui à 16:54
 *{
   padding : 0;
   margin: 0;
+  line-height: 1;
 }
 header{
   background-image: url("../image/cadreJungle-wbg.png");
@@ -14,6 +140,7 @@ header{
   width: 15%;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: content-box;
 }
 nav{
   position: sticky;
@@ -46,6 +173,7 @@ nav{
 #menu > li > a:focus {
   font-weight: bold;
 }
+
 .bord{
   border-right: solid;
 }
@@ -111,3 +239,226 @@ footer{
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
+*{
+  padding : 0;
+  margin: 0;
+  line-height: 1;
+}
+header{
+  background-image: url("../image/cadreJungle-wbg.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+#logoTop{
+  padding-top: 1.5%;
+  display: block;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: content-box;
+}
+nav{
+  position: sticky;
+  top:0px;
+  width: auto;
+  margin-left: 20%;  margin-right: 20%;
+  padding-top: 1%;
+  text-align: center;
+  padding-bottom: 1%;
+}
+#menu{
+  display : grid;
+  margin : 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+#menu > li {
+  grid-column: span 1;
+  text-align: center;
+  list-style: none;
+  font-family: "Calibri";
+  font-weight: 500;
+  font-size: 165%;
+}
+
+#menu > li > a {
+  text-decoration: none;
+}
+
+#menu > li > a:focus {
+  font-weight: bold;
+}
+
+.bord{
+  border-right: solid;
+}
+
+footer{
+  height: 80px;
+  display: grid;
+}
+#logoBottom{
+  display: block;
+  width: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (min-width : 1200px){
+  header{
+    height: 215px;
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  #logoTop{
+    padding-top: 17px;
+     height: 138px;
+     width: 177px;
+  }
+  nav{
+    grid-row :auto;
+  }
+
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* Float */
+.hvr-float {
+... (16 lignes restantes)
+Réduire
+message.txt
+3 Ko
+﻿
+*{
+  padding : 0;
+  margin: 0;
+  line-height: 1;
+}
+header{
+  background-image: url("../image/cadreJungle-wbg.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+#logoTop{
+  padding-top: 1.5%;
+  display: block;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: content-box;
+}
+nav{
+  position: sticky;
+  top:0px;
+  width: auto;
+  margin-left: 20%;  margin-right: 20%;
+  padding-top: 1%;
+  text-align: center;
+  padding-bottom: 1%;
+}
+#menu{
+  display : grid;
+  margin : 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+#menu > li {
+  grid-column: span 1;
+  text-align: center;
+  list-style: none;
+  font-family: "Calibri";
+  font-weight: 500;
+  font-size: 165%;
+}
+
+#menu > li > a {
+  text-decoration: none;
+}
+
+#menu > li > a:focus {
+  font-weight: bold;
+}
+
+.bord{
+  border-right: solid;
+}
+
+footer{
+  height: 80px;
+  display: grid;
+}
+#logoBottom{
+  display: block;
+  width: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (min-width : 1200px){
+  header{
+    height: 215px;
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  #logoTop{
+    padding-top: 17px;
+     height: 138px;
+     width: 177px;
+  }
+  nav{
+    grid-row :auto;
+  }
+
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+message.txt
+3 Ko
