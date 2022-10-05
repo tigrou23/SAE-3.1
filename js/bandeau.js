@@ -16,13 +16,3 @@ function refresh() {
     }
     hauteurNav();    
 }
-function switchMode(){
-    colorMode = !(false || colorMode);
-    if(colorMode){
-        $("#couleur").attr('href','css/lightMode.css');
-    }
-    else {
-        $("#couleur").attr('href','css/nightMode.css');
-    }
-    
-}

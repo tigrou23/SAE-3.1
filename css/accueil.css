@@ -1,5 +1,4 @@
 body{
-    background-image: url("../image/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -12,6 +11,11 @@ body{
   width: 15%;
   margin-left: auto;
   margin-right: auto;
+}
+#partie2{
+  display: block;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
 @media screen and (min-width : 1200px){
   #logoTop{
@@ -135,7 +139,7 @@ aside {
   margin-top: 5%;
 }
 
-#content img{
+.content img{
     max-width: 100px;
     max-height: 100px; 
 }
@@ -178,7 +182,7 @@ hr {
   height: 2px;
   margin: 1.5rem 0;
 }
-#content h1 {
+.content h1 {
   color: #363636;
   font-weight: 600;
   line-height: 1.125;
@@ -215,6 +219,15 @@ h1 {
 
 #divPlus > p{
   margin-top: 10%
+}
+p{
+	color: #4a4a4a;
+}
+h3{
+	color: #4a4a4a;
+}
+#menu{
+	color: #4a4a4a;
 }
 
 @media screen and (max-width : 715px){

@@ -4,16 +4,16 @@
 		<meta charset="utf-8">
 		<link rel="icon" href="./image/logo.ico" />
 		<title>CASBT - FAQ</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 		<link rel="stylesheet" type="text/css" href="css/bandeau01.css" />
-		<link id="couleur" rel="stylesheet" type="text/css" href="css/lightMode.css" media="only screen"/>
+		<link rel="stylesheet" type="text/css" href="css/testdaltonien.css"/>
 		<link rel="stylesheet" type="text/css" href="css/FAQ.css" />
 	
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js"></script>
 		<script type="text/javascript" src="js/bandeau.js"></script>
 	
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 	  </head>
   <body>
 
@@ -28,18 +28,20 @@
 			  <li class="bord"><a href="./actualite.html">Actualité</a></li>
 			  <li class="bord"><a href="./contact.html">Contact</a></li>
 			  <li class=""><a href="./FAQ.html">FAQ</a></li>
+			  
 			</ul>
 		  </nav>
 		</div>
 	  </header>
-
-    <div class = "content">
-		<img src="image/13446866_5236108.jpg" id="TofFAQ" alt="FAQ">
 	
-		<section>
+	<img src="image/13446866_5236108.jpg" id="TofFAQ" alt="FAQ">
+    <div id="theme" class ="content">
+	
+		
 			<h1 class ="is-size-3">FAQ</h1>
+			<button id="toggle-btn" class="dark-mode-toggle">Mode daltonien</button>
 			<hr style="width:10%;">	  
-		</section>
+	
 	
 		<div id="menu-faq">
 			<ul id="nav">
@@ -225,9 +227,19 @@
 		</div>	
     </div>
 
-    <footer>
-      <img src="image/logoSeul.png" id="logoBottom" alt="logo">
+	<footer>
+        <img src="image/logoSeul.png" id="logoBottom" alt="logo">
+        <p id="text_footer">Communauté d'agglomération GRAND SUD CARAIBE</p>
+        <div id="location">
+            <img src="image/location-pointer.png" alt="logo_location" id="logo_location">
+            <p id="text_location">Rue Bébian <br>97100 Basse Terre</p>
+        </div>
+        <div id="calendar">
+            <img src="image/calendar.png" id="logo_calendar">
+            <p id="text_calendar">Lundi au Vendredi <br>7h30 - 13h00 / 14h30-17h</p>
+        </div>
     </footer>
 	<script src="js/FAQ.js" ></script>
+	<script type="text/javascript" src="js/testDaltonien.js"></script>
   </body>
 </html>
