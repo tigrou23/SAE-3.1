@@ -16,12 +16,12 @@ body {
 }
 
 .dark-mode-toggle {
-  background: black;
+  background-color: black;
   color: white;
 }
 
 .dark-mode-theme {
-	background: black;
+	background-color: black;
 	color: white;
 }
 
@@ -86,7 +86,7 @@ div.dark-mode-theme .titre{
 
 /*bandeau*/
 
-div.dark-mode-theme header{
-  color: yellow;
-}
 
+div.dark-mode-theme > .bandeau > nav > #menu a{
+  color : blue;
+}

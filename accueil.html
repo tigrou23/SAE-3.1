@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/bandeau01.css" />
-	<link rel="stylesheet" type="text/css" href="css/testdaltonien.css"/>
     <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" type="text/css" href="css/testdaltonien.css"/>
     <link rel="icon" href="./image/logo.ico" />
     <title>CASBT - Accueil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,11 +12,11 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script type="text/javascript" src="js/bandeau.js"></script>
-    
+
 </head>
 
 <body>
-    <header>
+    <header id="bandeau" class="">
         <div class="bandeau">
           <a href="./accueil.html">
             <img src="image/logo.png" id="logoTop" alt="logo">
@@ -32,7 +32,7 @@
         </div>
     </header>
 
-   
+
 
     <div id="theme" class="content">
 
@@ -40,17 +40,17 @@
             <h1 class ="is-size-3">Accueil</h1>
 			<button id="toggle-btn" class="dark-mode-toggle">Mode daltonien</button>
             <hr style="width:10%;">
-           
+
         </article>
         <article id="demarche">
             <h3 class="underline-01"><a href="http://www.casbt.incom-sa.fr/?q=mes-demarches-en-ligne" id="demarcheLink">Mes démarches en ligne...</a></h3>
-            
+
             <div id="demarcheContent">
                 <div id="divWrench">
                     <img src="image/wrench.png" alt="wrench">
                     <p><a href="http://www.casbt.incom-sa.fr/?q=contr%C3%B4le-syst%C3%A8me-dassainissement-0" id="linkWrench">> Contrôle Système d'Assainissement</a></p>
                 </div>
-                
+
                 <div id="divContrat">
                     <img src="image/contrat.png" alt="Pen writing a note">
                     <p><a href="http://www.casbt.incom-sa.fr/?q=demande-r%C3%A9siliation-abonnement" id="linkContrat">> Demande Résiliation Abonnement</a></p>
@@ -58,14 +58,14 @@
                 <div id="divPlus">
                     <img src="image/plus.png" alt="Plus icon">
                     <p><a href="http://www.casbt.incom-sa.fr/?q=informations" id="linkPlus">> Plus d'infos pratiques...</a></p>
-                </div>    
+                </div>
             </div>
         </article>
         <aside id="divers">
             <article id="contact">
                 <h3 class="underline-02"><a href="./contact.html" id="contactLink">Nous contacter...</a></h3>
-                
-                
+
+
                 <p>Nos conseillers sont à votre <br/>disposition du Lundi au Vendredi.</p>
                 <div class="more">
                     <img src="image/fleche-courbe.png" alt="arrow" class="arrowImg">
@@ -84,16 +84,19 @@
                     <img src="image/fleche-courbe.png" alt="arrow" class="arrowImg">
                     <p><a href="./FAQ.html"><i id="a2">Plus de questions...</i></a></p>
                 </div>
-            </article> 
+            </article>
         </aside>
-        <section id="partie2">
-            <iframe width="235" height="400" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=166E942221DDEE88%2157144&authkey=%21AEg4iYGiRrb01Qo&em=2&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&resen=false%22%3E"></iframe>
-        </section>
+        <article id="demarche">
+            <h3 class="underline-01">Résultats du calcul nutriscore</h3>
+                <img id="requete2" src="https://db3pap004files.storage.live.com/y4my6wKRUQcXDUiwuLbvEdSfvw9_kMAT5GQSjREOfduMTH8g7G6faHAfJWt5Rj1nc3HQnLT1VYglSLz82TOvt_BlKIYy6uP2uJpH-hco8YwZeX6l3X_4GzAiBE6Hju_nsj4H91Z4GMo-WBT57A6No8Sev8fzbohwprN6wLMp388-JAeGSJFtbWEQO_RfqZgzMO1?width=640&height=480&cropmode=none" width="640" height="480" />     
+                <iframe src="https://onedrive.live.com/embed?cid=166E942221DDEE88&resid=166E942221DDEE88%2157144&authkey=AEg4iYGiRrb01Qo&em=2" width="402" height="346" frameborder="0" scrolling="no"></iframe>  
+        </article>
+       
     </div>
 
 
 
-    
+
     <footer>
         <img src="image/logoSeul.png" id="logoBottom" alt="logo">
         <p id="text_footer">Communauté d'agglomération GRAND SUD CARAIBE</p>
@@ -108,4 +111,4 @@
     </footer>
 	<script type="text/javascript" src="js/testDaltonien.js"></script>
 </body>
-</html> 
+</html>

@@ -139,10 +139,12 @@ aside {
   margin-top: 5%;
 }
 
-.content img{
+.content img:not(#requete2){
     max-width: 100px;
-    max-height: 100px; 
+    max-height: 100px;
 }
+
+
 
 .arrowImg{
     object-fit: contain;
@@ -226,12 +228,9 @@ p{
 h3{
 	color: #4a4a4a;
 }
-#menu{
-	color: #4a4a4a;
-}
 
 @media screen and (max-width : 715px){
-  
+
   .underline-03::after,.underline-01::after,.underline-02::after{
     display:none;
   }
@@ -239,6 +238,6 @@ h3{
   #demarcheContent{
     margin-left: 2%;
   }
-  
+
 
 }

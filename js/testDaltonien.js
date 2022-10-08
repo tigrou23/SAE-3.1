@@ -4,12 +4,14 @@ let darkMode = localStorage.getItem("dark-mode");
 
 const enableDarkMode = () => {
   theme.classList.add("dark-mode-theme");
+  document.getElementById("bandeau").classList.add("dark-mode-theme");
   toggleBtn.classList.remove("dark-mode-toggle");
   localStorage.setItem("dark-mode", "enabled");
 };
 
 const disableDarkMode = () => {
   theme.classList.remove("dark-mode-theme");
+  document.getElementById("bandeau").classList.remove("dark-mode-theme");
   toggleBtn.classList.add("dark-mode-toggle");
   localStorage.setItem("dark-mode", "disabled");
 };
