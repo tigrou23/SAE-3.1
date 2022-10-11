@@ -1,11 +1,11 @@
+/* BALISES */
+
 *{
     padding: 0;
     margin: 0;
 }
-.content{
-    padding: 50px;
-    padding-bottom: 3%;
-}
+
+/* ID */
 
 #contenu{
     display : grid;
@@ -17,6 +17,12 @@
     margin-right: auto;
 }
 
+/* CLASS */
+
+.content{
+    padding: 50px;
+    padding-bottom: 3%;
+}
 .content img{
     position : relative;
     display: block;
@@ -38,14 +44,13 @@
     display: grid;
 }
 
+/* MEDIA QUERRY */
+
 @media screen and (min-width : 1200px){
     #contenu{
-      width : 1085px;
-    }
-
-  
+		width : 1085px;
+    } 
 }
-
 @media screen and (max-width : 750px){
     #contenu{
         grid-template-columns: auto;

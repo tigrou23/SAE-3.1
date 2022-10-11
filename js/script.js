@@ -12,20 +12,15 @@ divInputRecherche.addEventListener(
     'click', 
     () => { inputRecherche.focus(); }
 );
-
 divInputWrench.addEventListener(
     'click', 
     () => { linkWrench.click(); }
 );
-
 divInputContrat.addEventListener(
     'click', 
     () => { linkContrat.click(); }
-);
-      
+);     
 divInputPlus.addEventListener(
     'click', 
     () => { linkPlus.click(); }
-);
-      
-       
+);     

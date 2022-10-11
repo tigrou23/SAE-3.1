@@ -1,29 +1,29 @@
-.content{
-    padding: 50px;
-    padding-bottom: 0%;
-}
-
-
-#carte{
-    visibility: hidden;
-
-}
+/* BALISES */
 
 hr{
     color: aqua;
 }
 
+/* ID */
+
+#carte{
+    visibility: hidden;
+}
 #info2{
     display: grid;
     grid-template-columns: 50px auto;
     font-size: 20px;
 }
 
+/* CLASS */
 
+.content{
+    padding: 50px;
+    padding-bottom: 0%;
+}
 .divicone{
     width: 80%;
-    margin-bottom: 100px;
-
+    margin-bottom: 100px;^
 }
 
 

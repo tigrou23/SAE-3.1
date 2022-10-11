@@ -1,18 +1,17 @@
-.content{
-    padding: 50px;
-    padding-bottom: 3%;
-   
+/* BALISES */
+
+hr{
+    color: aqua;
 }
+
+/* ID */
+
 #carte{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 600px;
     height: 400px;
-
-}
-hr{
-    color: aqua;
 }
 #info2{
     display: grid;
@@ -25,6 +24,13 @@ hr{
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     font-size: 20px;
+}
+
+/* CLASS */
+
+.content{
+    padding: 50px;
+    padding-bottom: 3%;
 }
 .divicone{
     width: 80%;
