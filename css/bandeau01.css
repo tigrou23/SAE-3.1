@@ -25,11 +25,11 @@ nav{
 	padding-bottom: 1%;
 }
 footer{
-	height: 80px;
 	background-color: #cecece;
 	display: flex;
 	font-family: Calibri;
-	box-sizing: content-box;
+	
+	flex-direction: row;
 }
 
 /* ID */
@@ -66,41 +66,24 @@ footer{
 	margin-right: auto;
 	box-sizing: content-box;
 }
-#logoBottom{
-	display: block;
-	width: 10%;
-	margin-top: auto;
-	margin-bottom: auto;
-}
-#text_footer{
-	margin-top: 2%;
-	width: 50%;
-	font-size: 115%;
-}
-#logo_location{
-	height: 75%;
-}
-#location{
-	display: flex;
-	margin-top: 1%;
-}
-#text_location{
-	margin-top: 7%;
-	box-sizing: content-box;
-}
-#logo_calendar{
-	height: 75%;
-}
-#calendar{
-	display: flex;
-	margin-top: 1%;
-	margin-left: 5%;
-}
-#text_calendar{
-    margin-top: 5%;
-    margin-left: 10px;
-}
 
+.divFooter{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.divFooter img{
+	width: 20%;
+}
+.divFooter #logoBottom{
+	width: 25%;
+}
+.divFooter p{
+	margin: 5%;
+}
+#theme{
+    margin-bottom: 0px;
+}
 /* CLASS */
 
 .bord{
@@ -160,5 +143,31 @@ footer{
 @media screen and (max-width : 750px){
 	#menu > li {
 		font-size: 105%;
+	}
+
+	footer p{
+		font-size: smaller;
+	}
+}
+@media screen and (max-width : 600px){
+	footer{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+	}
+	footer .divFooter img{
+		width:50px;
+	}
+	footer .divFooter #logoBottom{
+		width: 100px;
+	}
+	.divFooter{
+		margin:2%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.divFooter p{
+		margin:2%;
 	}
 }

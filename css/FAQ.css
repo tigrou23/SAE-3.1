@@ -19,6 +19,10 @@ li.listeRubriques{
 	max-width: 100px;
 } 
 
+footer{
+    padding-bottom: 15px;
+}
+
 /* ID */
 
 #nav{
@@ -48,6 +52,10 @@ li.listeRubriques{
 	width:96px;
 	height:96px;
 	cursor: pointer;
+}
+
+#theme{
+    margin-bottom: 0px;
 }
 
 /* CLASS */

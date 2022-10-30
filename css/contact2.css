@@ -4,6 +4,10 @@ hr{
     color: aqua;
 }
 
+footer{
+    padding-bottom: 15px;
+}
+
 /* ID */
 
 #carte{
@@ -23,6 +27,9 @@ hr{
     font-size: 20px;
 }
 
+#theme{
+    margin-bottom: 0px;
+}
 /* CLASS */
 
 .content{
