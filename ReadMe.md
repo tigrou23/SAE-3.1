@@ -4,7 +4,8 @@
 [Lien vers le rapport (format PDF)](./Rendu.pdf)
 
 ## Diaporama sonorisé
-[Lien vers notre vidéo, essayez de visionner la vidéo en résolution 1080p pour avoir une image nette](https://www.youtube.com/watch?v=iphuhX93Tyg)
+[Lien vers notre vidéo](https://www.youtube.com/watch?v=iphuhX93Tyg)
+Essayez de visionner la vidéo en résolution 1080p pour avoir une image nette
 
 - Félix Liburski (GP 209)
 - Francois Peuch (GP 209)
