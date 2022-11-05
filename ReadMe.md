@@ -1,10 +1,10 @@
 # SAé 3.1
 
 ## Rapport de la SAé
-[Lien vers le rapport (possibilité de le télécharger)](./Rapport.pdf)
+[Lien vers le rapport](./Rapport.pdf)(possibilité de le télécharger).
 
 ## Diaporama sonorisé
-[Lien vers notre vidéo](https://www.youtube.com/watch?v=iphuhX93Tyg)
+[Lien vers notre vidéo](https://www.youtube.com/watch?v=iphuhX93Tyg).
 
 Essayez de visionner la vidéo en résolution 1080p pour avoir une image nette.
 
