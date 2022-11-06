@@ -10,7 +10,7 @@
 
 Les archives *Mission1.zip* et *Mission2.zip* contiennt respectivement les fichiers pour la mission 1 et la mission 2.
 
-Notre site est accessible à l'adresse suivante : [htts://casbt.fr](htts://casbt.fr)
+Notre site est accessible à l'adresse suivante : [https://casbt.fr](https://casbt.fr)
 
 ## Rapport de la SAé
 [Lien vers le rapport ](./Rapport.pdf)(possibilité de le télécharger).
