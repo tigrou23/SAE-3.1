@@ -8,7 +8,7 @@
 
 ## Archives
 
-Les archives *Mission1.zip* et *Mission2.zip* contiennt respectivement les fichiers pour la mission 1 et la mission 2.
+Les archives *Mission1.zip* et *Mission2.zip* contienent respectivement les fichiers pour la mission 1 et la mission 2.
 
 Notre site est accessible à l'adresse suivante : [https://casbt.fr](https://casbt.fr)
 
